@@ -1,0 +1,40 @@
+section {
+    width: 83%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section h2 {
+    color: #ea786f;
+}
+
+section span {
+    color: #c5c4c4;
+}
+
+.text-box {
+    width: 15%;
+}
+
+.image-box {
+    width: 75%;
+}
+
+.image-box img {
+    width: 100%;
+}
+
+.text-box p {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.right {
+    float: right;
+}
+
+.clearfix {
+    clear: both;
+}
