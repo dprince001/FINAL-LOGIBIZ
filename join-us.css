@@ -33,3 +33,22 @@ input[type = submit] {
     background-color: #0e4f1f;
     color: white;
 }
+
+@media (max-width: 600px) {
+    input[type = text],
+    input[type = email],
+    input[type = password]{
+        width: 250px;
+    }
+
+    select {
+        width: 250px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+    .main-nav-links {
+        display: none;
+    }
+}

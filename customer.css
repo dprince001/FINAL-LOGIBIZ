@@ -19,7 +19,7 @@ section span {
 }
 
 .image-box {
-    width: 75%;
+    width: 65%;
 }
 
 .image-box img {
@@ -37,4 +37,33 @@ section span {
 
 .clearfix {
     clear: both;
+}
+
+
+
+@media (max-width: 600px) {
+    section {
+        width: 90%;
+        margin: auto; 
+        margin-top: 40px;
+        flex-direction: column;
+    }
+
+    .text-box {
+        width: 90%;
+        text-align: center;
+    }
+    
+    .image-box {
+        width: 90%;
+    }
+
+    .right {
+        float: none;
+        flex-direction: column-reverse;
+    }
+
+    .main-nav-links {
+        display: none;
+    }
 }

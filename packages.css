@@ -23,6 +23,7 @@ main {
     border-left: none;
     width: 85%;
     margin: 16px 0;
+    padding: 10px;
     background-color: #1ce050;
 }
 
@@ -73,3 +74,14 @@ main {
     color: white;
     padding: 10px;
 }
+
+@media (max-width: 600px) {
+    .recommended {
+        font-size: 13px;
+        top: 0;
+    }
+
+    .main-nav-links {
+        display: none;
+    }
+}    

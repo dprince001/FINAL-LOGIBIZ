@@ -109,3 +109,27 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+    .plan {
+        display: block;
+        width: 100%;
+        margin-top: 16px;
+    }
+    .overview {
+        height: 50vh;
+    }
+    .key-features-list {
+        flex-direction: column;
+    }
+    .main-nav-links {
+        display: none;
+    }
+}
